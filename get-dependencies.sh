@@ -9,11 +9,10 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     fluidsynth \
     libdecor   \
-    sdl2_image
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano sdl2_image-mini
 
 # Comment this out if you need an AUR package
 make-aur-package munt
