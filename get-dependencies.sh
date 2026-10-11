@@ -30,4 +30,3 @@ autoreconf -v -i
 ./configure --prefix=/usr
 make -j$(nproc) install
 mv -v ./data/*.flx ./data/*.txt /usr/share/exult/
-mv -v ./music/*.ogg /usr/share/exult/music
