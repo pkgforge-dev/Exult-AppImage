@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm autoconf-archive fluidsynth glslang sdl3_image sdl3_mixer
+pacman -Syu --noconfirm autoconf-archive fluidsynth sdl3_image sdl3_mixer
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
